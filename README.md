@@ -5,14 +5,16 @@ into a database.
 
 ## Getting started
 
-Download starter. `cd` into __server__ folder, and install dependencies using
-`npm install`.
+Download starter. 
 
-Create a __.env__ file modelled after __.env.example__, specifying the location 
-of the database to be created.
+Execute the __setup-commands.sh__ script from the root directory of this
+practice. 
 
-Use `sequelize-cli` to run the migration and seeder files provided. They will 
-create the following `Puppies` table in your database:
+```shell
+sh setup-commands.sh
+```
+
+View the contents of the script to see the commands that are executed. View the results in the terminal to confirm that setup was successful in creating the following `Puppies` table in your database:
 
 | `id` | `name`   | `age_yrs` | `breed`             | `weight_lbs` | `microchipped` |
 | ---- | -------- | --------- | ------------------- | ------------ | -------------- |
